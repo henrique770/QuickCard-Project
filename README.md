@@ -1,4 +1,4 @@
-# QuickCard | Protótipo
+# QuickCard|Protótipo
 
 
 
