@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" href="QuickCardL.png" type="image/x-icon" />
+  <title class="clock-text"></title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <canvas id='clock' width='350px' height='350px'></canvas>
+<canvas id='clock-back' width='350px' height='350px'></canvas>
+<div class='clock-text'>01:00
+</div>
+<div class="back-circle"></div>
+<div class="button-container">
+  <div class='button start-button'>
+    <div class='button-text bottom-anim'>
+    Iniciar
+    </div>
+  </div>
+    <div class='button stop-button'>
+      <div class='button-text bottom-anim'>
+    Parar
+    </div>
+  </div>
+  <div class="button option-button">
+    <div class='button-text bottom-anim'>
+    Opções
+    </div>
+  </div>
+</div>
+<div class="options-container">
+  <div class="option length">
+    <div class= "op-div">
+      <div class="op-text">
+      Duração
+      </div>
+      <input id="length-in" value="25" class="op-in" type="text" placeholder="25" onchange="limitvalues(this)"/>
+    </div>
+  </div>
+ <!--  <div class="option delay">
+    <div class= "op-div">
+      <div class="op-text">
+      delay
+      </div>
+      <input id="delay-in" class="op-in" value="1" type="text" placeholder="1" onchange="limitvalues(this)"/>
+    </div>
+  </div> -->
+  <div class="option reset">
+    <div class="extra-text reset-text bottom-anim">
+    Resetar
+    </div>
+  </div>
+  <div class="option close">
+    <div class="extra-text close-text bottom-anim">
+    Voltar
+    </div>
+  </div>
+</div>
+  <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>

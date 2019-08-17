@@ -1,0 +1,30 @@
+.note-editor .note-editable{
+border-top: 1px solid rgba(0,0,0,0.2) !important;
+margin:10px 0px  !important;
+}
+.note-toolbar{
+text-align:center  !important;
+}
+.note-editor{
+border:none  !important;
+margin:25px 0px  !important;
+}
+.note-editor .note-toolbar{
+border:none  !important;
+background-color:white  !important;
+}
+.btn-default{
+background:rgb(245,170,86)  !important;
+border:none  !important;
+font-size:1.3em  !important;
+}
+.btn-toolbar .btn-group{
+float:none  !important;
+}
+
+.btn {
+  border-radius:0px !important;
+}
+.btn-container {
+  text-align:center !important;
+}

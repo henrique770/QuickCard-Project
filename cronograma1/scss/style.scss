@@ -1,0 +1,56 @@
+$webfestPurple:#654491;
+
+.webfest-schedule {
+  width:100%;
+  max-width:766px;
+  margin:auto auto 2em auto;
+  border:1px solid $webfestPurple;
+  
+  thead {
+    background-color: $webfestPurple;
+    color:#efefef !important;
+  }
+
+  th {
+    text-align:left;
+    padding:0.5em 2em;
+  }
+
+  th h3 {
+    color:#fff;
+  }
+
+  th h3, .date {
+    text-transform:uppercase;
+  }
+
+  th h3, .date, p {
+    margin-bottom:0;
+  }
+  
+  th .date {
+    font-size:1em;
+  }
+
+  tbody td:first-child {
+    text-align:center;
+  }
+  
+  tr:nth-child(2n) {
+    background-color:#e8e8e8;
+  }
+  
+   td {
+    padding:0.5em;
+  }
+
+  td strong {
+    text-transform:uppercase;
+  } 
+
+  @media (min-width: 766px) {
+    p.date {
+      float:right;
+    }  
+  }
+}

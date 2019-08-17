@@ -1,0 +1,43 @@
+.webfest-schedule {
+  width: 100%;
+  max-width: 766px;
+  margin: auto auto 2em auto;
+  border: 1px solid #654491;
+}
+.webfest-schedule thead {
+  background-color: #654491;
+  color: #efefef !important;
+}
+.webfest-schedule th {
+  text-align: left;
+  padding: 0.5em 2em;
+}
+.webfest-schedule th h3 {
+  color: #fff;
+}
+.webfest-schedule th h3, .webfest-schedule .date {
+  text-transform: uppercase;
+}
+.webfest-schedule th h3, .webfest-schedule .date, .webfest-schedule p {
+  margin-bottom: 0;
+}
+.webfest-schedule th .date {
+  font-size: 1em;
+}
+.webfest-schedule tbody td:first-child {
+  text-align: center;
+}
+.webfest-schedule tr:nth-child(2n) {
+  background-color: #e8e8e8;
+}
+.webfest-schedule td {
+  padding: 0.5em;
+}
+.webfest-schedule td strong {
+  text-transform: uppercase;
+}
+@media (min-width: 766px) {
+  .webfest-schedule p.date {
+    float: right;
+  }
+}

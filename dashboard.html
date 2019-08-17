@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>QuickCard</title>
+  <link rel="shortcut icon" href="images/QuickCardL.png" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="images/QuickCardL.png">
+
+  
+  
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.css'>
+<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.0.13/css/all.css'>
+
+      <link rel="stylesheet" href="css/stylesystem.css">
+
+
+
+      
+
+  
+</head>
+<style type="text/css">
+    
+   /* @media only screen and (max-width: 1000px){
+        .changecardresp {
+            width: 315px !important;
+    margin-top: -33px !important;
+    padding-right: 19px !important;
+    margin-left: -58px !important;
+    margin-left: -24px !important;
+    overflow-y: scroll !important;
+    position: fixed !important;
+        }
+    }*/
+
+
+</style>
+<body>
+
+
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <iframe src="chatbotc.html" frameborder="0" width="598px" height="510px"></iframe>
+      </div>
+      
+    </div>
+  </div>
+
+
+
+
+
+
+   <div class="page-wrapper chiller-theme toggled">
+        <a style="z-index: 999999999;" id="show-sidebar" class="btn btn-sm btn-dark" href="#">
+            <i class="fas fa-bars"></i>
+        </a>
+        <nav id="sidebar" class="sidebar-wrapper">
+            <div class="sidebar-content">
+                <div class="sidebar-brand">
+                    <a href="dashboard.html"><img src="images/logos/qclw.png"></a>
+                    <div id="close-sidebar">
+                        <i class="fas fa-times"></i>
+                    </div>
+                </div>
+                
+                
+                <!-- sidebar-header  -->
+                
+                <!-- sidebar-search  -->
+                <div class="sidebar-menu">
+                    <ul>
+                        <li class="header-menu">
+                            <span>Geral</span>
+                        </li>
+                        <li class="sidebar-dropdown">
+                            <a href="#">
+                                <i class="fas fa-plus"></i>
+                                <span>Criar</span>
+                                <span class="badge badge-pill badge-danger">Novo</span>
+                            </a>
+                            <div class="sidebar-submenu">
+                                <ul>
+                                    <li>
+                                        <a href="nova-nota.html">Nova Nota
+                                            <!-- <span class="badge badge-pill badge-success">Pro</span> -->
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" data-toggle="modal" data-target="#myModal">Novo Cronograma</a>
+                                    </li>
+                                    <li>
+                                        <a href="novo-cartao.html">Novo Cartão</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="sidebar-dropdown">
+                            <a href="#">
+                                <i class="fas fa-sticky-note"></i>
+                                <span>Notas</span>
+                                
+                            </a>
+                            <div class="sidebar-submenu">
+                                <ul>
+                                    <li>
+                                        <a href="notas.html">Todas as Notas
+
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="blocos.html">Blocos</a>
+                                    </li>
+                                   
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li class="sidebar">
+                            <a href="baralhos.html">
+                                <i class="fas fa-align-justify"></i>
+                                <span>Baralhos</span>
+                                <span class="badge badge-pill badge-primary">3</span>
+                                <span class="badge badge-pill badge-primary">A Revisar</span>
+                            </a>
+                            <!-- <div class="sidebar-submenu">
+                                <ul>
+                                    <li>
+                                        <a href="#">General</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Panels</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Tables</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Icons</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Forms</a>
+                                    </li>
+                                </ul>
+                            </div> -->
+                        </li>
+                        <li class="sidebar">
+                            <a href="cronogramas.html">
+                                <i class="fas fa-calendar-alt"></i>
+                                <span>Cronogramas</span>
+                            </a>
+                           <!--  <div class="sidebar-submenu">
+                                <ul>
+                                    <li>
+                                        <a href="#">Pie chart</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Line chart</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Bar chart</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Histogram</a>
+                                    </li>
+                                </ul>
+                            </div> -->
+                        </li>
+                        <div class="sidebar-search">
+                    <div>
+                        <div class="input-group">
+                            <input type="text" class="form-control search-menu" placeholder="Pesquisar...">
+                            <div class="input-group-append">
+                                <span class="input-group-text">
+                                    <i class="fa fa-search" aria-hidden="true"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                        
+                        <li class="header-menu">
+                            <span>Extra</span>
+                        </li>
+                        <li class="sidebar-dropdown">
+                            <a href="#">
+                                <i class="fas fa-chart-line"></i>
+                                <span>Desempenho</span>
+                            </a>
+                            <div class="sidebar-submenu">
+                                <ul>
+                                    <li>
+                                        <a href="#">Cronogramas</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Baralhos</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fas fa-sync"></i>
+                                <span>Sicronizar</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fas fa-tag"></i>
+                                <span>Etiquetas</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fas fa-star"></i>
+                                <span>Atalhos</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="sidebar-header">
+                    <div class="user-pic">
+                        <img class="img-responsive img-rounded" src="images/h_60px_3.png" alt="User picture">
+                    </div>
+                    <div class="user-info">
+                        <span class="user-name"><!-- Jhon -->
+                            <strong>Usuário</strong>
+                        </span>
+                        <span class="user-role"></span>
+                        <span class="user-status">
+                            <i class="fa fa-circle"></i>
+                            <span>Online</span>
+                        </span>
+                    </div>
+                </div>
+                <!-- sidebar-menu  -->
+            </div>
+            <!-- sidebar-content  -->
+            <div class="sidebar-footer">
+                <a href="#">
+                    <i class="fa fa-bell"></i>
+                    <span class="badge badge-pill badge-warning notification">3</span>
+                </a>
+                <a href="#">
+                    <i class="fa fa-envelope"></i>
+                    <span class="badge badge-pill badge-success notification">7</span>
+                </a>
+                <a href="#">
+                    <i class="fa fa-cog"></i>
+                    <span class="badge-sonar"></span>
+                </a>
+                <a href="#">
+                    <i class="fa fa-power-off"></i>
+                </a>
+            </div>
+        </nav>
+        <!-- sidebar-wrapper  -->
+
+        <main class="page-content">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="form-group col-md-3">
+
+
+                        <!-- class="changecardresp" -->
+                        
+<!-- Scroll bar present and enabled -->        
+    <div  style="  width: 275px;  
+    margin-top: -33px;
+    padding-right: 19px;
+    height: 98%;
+    margin-left: -57px;
+    overflow-y: scroll;
+    position: fixed;">
+
+    <div class="jumbotron">
+  <div class="container">
+    
+    <h3> prova java   </h3>
+    <p>get ou set = public
+get é usado para pegar ...</p>
+  </div>
+</div>
+<div class="jumbotron">
+    
+  <div class="container">
+    <h3> pendencias  </h3>
+    <p>criar layout pag vendas</p>
+  </div>
+</div>
+<div class="jumbotron">
+    
+  <div class="container">
+    <h3> Leitura  </h3>
+    <p>Edgar Allan Poe medo clássico Enviar
+Richard Kelly - Donnie darko Enviar</p>
+  </div>
+</div>
+<div class="jumbotron">
+  <div class="container">
+     <h3> Anotação  </h3>
+    <p>descrição</p>
+  </div>
+</div>
+<div class="jumbotron">
+  <div class="container">
+     <h3> Anotação  </h3>
+    <p>descrição</p>
+  </div>
+</div>
+<div class="jumbotron">
+  <div class="container">
+     <h3> Anotação  </h3>
+    <p>descrição</p>
+  </div>
+</div>
+<div class="jumbotron">
+  <div class="container">
+     <h3> Anotação  </h3>
+    <p>descrição</p>
+  </div>
+</div>
+<div class="jumbotron">
+  <div class="container">
+     <h3> Anotação  </h3>
+    <p>descrição</p>
+  </div>
+</div>
+<div class="jumbotron">
+  <div class="container">
+     <h3> Anotação  </h3>
+    <p>descrição</p>
+  </div>
+</div>
+<div class="jumbotron">
+  <div class="container">
+     <h3> Anotação  </h3>
+    <p>descrição</p>
+  </div>
+</div>
+<div class="jumbotron">
+  <div class="container">
+     <h3> Anotação  </h3>
+    <p>descrição</p>
+  </div>
+</div>
+<div class="jumbotron">
+  <div class="container">
+     <h3> Anotação  </h3>
+    <p>descrição</p>
+  </div>
+</div>
+<div class="jumbotron">
+  <div class="container">
+     <h3> Anotação  </h3>
+    <p>descrição</p>
+  </div>
+</div>
+
+    </div>
+
+                    </div>
+                <div class="form-group col-md-9">
+                        
+<!-- Scroll bar present and enabled -->        
+    <div style="    width: auto;
+    margin-top: -33px;
+    height: 98%;
+    overflow-y: scroll;
+    position: fixed;">
+
+
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item active" aria-current="page"><a href="javacript:void(0);"><i style="padding-left: 10px;" class="fas fa-stopwatch"></i></a> <a href="javacript:void(0);"><i style="padding-left: 10px;"class="fas fa-trash-alt"></i></a> <a href="javacript:void(0);"><i style="padding-left: 10px;" class="fas fa-info-circle"></i></a></li>
+  </ol>
+</nav>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla posuere leo vitae elit vehicula, in scelerisque risus dignissim. Vivamus tellus lectus, consequat quis volutpat efficitur, ornare tristique eros. Aliquam in tellus tincidunt, semper augue nec, aliquam metus. Fusce tincidunt arcu in convallis dignissim. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ac rutrum lorem. Sed pretium sem sed aliquam rutrum. Nullam quis eleifend turpis. Integer vitae ornare odio.
+
+Suspendisse semper mi quam, ac tincidunt risus semper in. Sed eu tortor nulla. Donec sed quam ac tellus convallis fermentum facilisis ac lorem. Ut quis felis vel dolor mollis semper. Vestibulum mollis porttitor enim, sed dapibus diam. Phasellus placerat porta dolor non suscipit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla eleifend odio ut placerat venenatis. Praesent mollis diam in blandit volutpat. Etiam neque leo, sollicitudin id ornare non, ultricies quis metus. Nulla ornare ligula vitae malesuada vestibulum. Nullam ac est tellus. Aliquam erat volutpat. Donec elementum lorem turpis. Ut non tempus arcu.
+
+Etiam ornare velit vitae dolor vehicula consectetur. In hendrerit tristique nisl, eget feugiat nulla tempus at. Fusce eget viverra purus. Maecenas aliquam neque ut mauris pellentesque viverra. Proin facilisis lacinia eleifend. Curabitur eleifend finibus libero vitae interdum. Cras pellentesque gravida lectus, eu porta lorem condimentum vitae. Suspendisse vitae justo et justo viverra vulputate id ac arcu. Vivamus suscipit nibh nec sem ullamcorper, at ultrices ipsum luctus. Etiam consequat ultricies efficitur. Vivamus hendrerit quam tristique lacus feugiat, eget rutrum sem ultricies. Duis metus justo, fermentum tincidunt sollicitudin non, venenatis vitae lectus. Sed interdum, neque id ultrices convallis, mi ex tempus tellus, at dapibus mauris augue sit amet mauris. Aenean sollicitudin sagittis risus ac commodo. Curabitur in interdum dui.
+
+Maecenas viverra fringilla orci vel ultrices. Mauris sapien nunc, sagittis in vehicula congue, cursus et ex. Nunc ac lorem justo. In vehicula blandit facilisis. Maecenas tempus justo sit amet urna luctus ornare. Curabitur id leo aliquet, finibus metus nec, finibus enim. Suspendisse nisi magna, molestie ac tellus nec, ultrices molestie massa. Cras id arcu et mi dapibus interdum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+
+Maecenas interdum sem mi, at aliquet nisi tempus et. Fusce sed cursus justo. Vestibulum accumsan sit amet ante eget auctor. Curabitur molestie nunc id arcu rutrum, et bibendum enim laoreet. Fusce vulputate nunc lobortis tincidunt malesuada. Vivamus enim eros, viverra fermentum metus eget, feugiat varius est. Quisque ac odio luctus, bibendum nibh sit amet, pellentesque lorem. Mauris venenatis ornare elementum. Aenean non aliquet quam. Duis pretium odio massa, id volutpat est pharetra sit amet.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla posuere leo vitae elit vehicula, in scelerisque risus dignissim. Vivamus tellus lectus, consequat quis volutpat efficitur, ornare tristique eros. Aliquam in tellus tincidunt, semper augue nec, aliquam metus. Fusce tincidunt arcu in convallis dignissim. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ac rutrum lorem. Sed pretium sem sed aliquam rutrum. Nullam quis eleifend turpis. Integer vitae ornare odio.
+
+Suspendisse semper mi quam, ac tincidunt risus semper in. Sed eu tortor nulla. Donec sed quam ac tellus convallis fermentum facilisis ac lorem. Ut quis felis vel dolor mollis semper. Vestibulum mollis porttitor enim, sed dapibus diam. Phasellus placerat porta dolor non suscipit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla eleifend odio ut placerat venenatis. Praesent mollis diam in blandit volutpat. Etiam neque leo, sollicitudin id ornare non, ultricies quis metus. Nulla ornare ligula vitae malesuada vestibulum. Nullam ac est tellus. Aliquam erat volutpat. Donec elementum lorem turpis. Ut non tempus arcu.
+
+Etiam ornare velit vitae dolor vehicula consectetur. In hendrerit tristique nisl, eget feugiat nulla tempus at. Fusce eget viverra purus. Maecenas aliquam neque ut mauris pellentesque viverra. Proin facilisis lacinia eleifend. Curabitur eleifend finibus libero vitae interdum. Cras pellentesque gravida lectus, eu porta lorem condimentum vitae. Suspendisse vitae justo et justo viverra vulputate id ac arcu. Vivamus suscipit nibh nec sem ullamcorper, at ultrices ipsum luctus. Etiam consequat ultricies efficitur. Vivamus hendrerit quam tristique lacus feugiat, eget rutrum sem ultricies. Duis metus justo, fermentum tincidunt sollicitudin non, venenatis vitae lectus. Sed interdum, neque id ultrices convallis, mi ex tempus tellus, at dapibus mauris augue sit amet mauris. Aenean sollicitudin sagittis risus ac commodo. Curabitur in interdum dui.
+
+Maecenas viverra fringilla orci vel ultrices. Mauris sapien nunc, sagittis in vehicula congue, cursus et ex. Nunc ac lorem justo. In vehicula blandit facilisis. Maecenas tempus justo sit amet urna luctus ornare. Curabitur id leo aliquet, finibus metus nec, finibus enim. Suspendisse nisi magna, molestie ac tellus nec, ultrices molestie massa. Cras id arcu et mi dapibus interdum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+
+Maecenas interdum sem mi, at aliquet nisi tempus et. Fusce sed cursus justo. Vestibulum accumsan sit amet ante eget auctor. Curabitur molestie nunc id arcu rutrum, et bibendum enim laoreet. Fusce vulputate nunc lobortis tincidunt malesuada. Vivamus enim eros, viverra fermentum metus eget, feugiat varius est. Quisque ac odio luctus, bibendum nibh sit amet, pellentesque lorem. Mauris venenatis ornare elementum. Aenean non aliquet quam. Duis pretium odio massa, id volutpat est pharetra sit amet.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla posuere leo vitae elit vehicula, in scelerisque risus dignissim. Vivamus tellus lectus, consequat quis volutpat efficitur, ornare tristique eros. Aliquam in tellus tincidunt, semper augue nec, aliquam metus. Fusce tincidunt arcu in convallis dignissim. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ac rutrum lorem. Sed pretium sem sed aliquam rutrum. Nullam quis eleifend turpis. Integer vitae ornare odio.
+
+Suspendisse semper mi quam, ac tincidunt risus semper in. Sed eu tortor nulla. Donec sed quam ac tellus convallis fermentum facilisis ac lorem. Ut quis felis vel dolor mollis semper. Vestibulum mollis porttitor enim, sed dapibus diam. Phasellus placerat porta dolor non suscipit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla eleifend odio ut placerat venenatis. Praesent mollis diam in blandit volutpat. Etiam neque leo, sollicitudin id ornare non, ultricies quis metus. Nulla ornare ligula vitae malesuada vestibulum. Nullam ac est tellus. Aliquam erat volutpat. Donec elementum lorem turpis. Ut non tempus arcu.
+
+Etiam ornare velit vitae dolor vehicula consectetur. In hendrerit tristique nisl, eget feugiat nulla tempus at. Fusce eget viverra purus. Maecenas aliquam neque ut mauris pellentesque viverra. Proin facilisis lacinia eleifend. Curabitur eleifend finibus libero vitae interdum. Cras pellentesque gravida lectus, eu porta lorem condimentum vitae. Suspendisse vitae justo et justo viverra vulputate id ac arcu. Vivamus suscipit nibh nec sem ullamcorper, at ultrices ipsum luctus. Etiam consequat ultricies efficitur. Vivamus hendrerit quam tristique lacus feugiat, eget rutrum sem ultricies. Duis metus justo, fermentum tincidunt sollicitudin non, venenatis vitae lectus. Sed interdum, neque id ultrices convallis, mi ex tempus tellus, at dapibus mauris augue sit amet mauris. Aenean sollicitudin sagittis risus ac commodo. Curabitur in interdum dui.
+
+Maecenas viverra fringilla orci vel ultrices. Mauris sapien nunc, sagittis in vehicula congue, cursus et ex. Nunc ac lore</p>
+    </div>
+
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!-- page-content" -->
+    </div>
+    <!-- page-wrapper -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/esm/popper.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/js/bootstrap.js'></script>
+
+  
+
+    <script  src="js/indexsystem.js"></script>
+
+
+
+
+</body>
+
+</html>
