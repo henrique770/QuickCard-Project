@@ -33,5 +33,5 @@ ou ciclos.
 ## Pomodoro
 
 <p align="center"> 
-<img height=300 src="https://media.giphy.com/media/gKH6p3M8xQhmXbtxBA/giphy.gif">
+<img src="https://media.giphy.com/media/gKH6p3M8xQhmXbtxBA/giphy.gif">
 </p>
