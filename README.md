@@ -30,7 +30,7 @@ Frente             |  Verso
 Além disso existe o método pomodoro que é uma técnica que se baseia na ideia de que fluxos de trabalho divididos em blocos
 podem melhorar a agilidade do cérebro e estimular o foco, 25 minutos é o tempo ideal para esses blocos, também conhecidos como “pomodoros”.
 ou ciclos.
-## Pomodoro
+## Pomodoro:
 
 <p align="center"> 
 <img src="https://media.giphy.com/media/gKH6p3M8xQhmXbtxBA/giphy.gif">
