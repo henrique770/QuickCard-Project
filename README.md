@@ -36,4 +36,4 @@ ou ciclos.
 <img src="https://media.giphy.com/media/gKH6p3M8xQhmXbtxBA/giphy.gif">
 </p>
 
-<p align="center">Copyright © 2018</p> 
+<p align="center">2018</p> 
