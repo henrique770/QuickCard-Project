@@ -36,4 +36,11 @@ ou ciclos.
 <img src="https://media.giphy.com/media/gKH6p3M8xQhmXbtxBA/giphy.gif">
 </p>
 
+
+## Projeto em desenvolvimento
+### `mobile`
+https://github.com/henrique770/QuickCard_Mobile
+### `web`
+https://github.com/henrique770/Frontend-QuickCard
+
 <p align="center">2018</p> 
