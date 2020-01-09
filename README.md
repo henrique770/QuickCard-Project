@@ -6,30 +6,29 @@
 <img height=120 src="https://github.com/henrique770/QuickCard-Project/blob/master/src/images/logo_quickcard.svg">
 </p>
 
-O <strong>QuickCard</strong> é uma ferramenta que oferece vários recursos, tem o intuito de fazer com que pessoas possam 
-se organizar efetivamente. 
+<strong>QuickCard</strong> It is a tool that offers many features, intended to make people can organize effectively. 
 
 ![](https://live.staticflickr.com/65535/48556530677_7053e85bc2_b.jpg)
 
-Dentro desses recursos podemos citar <strong>anotações</strong> como alicerce principal juntamente com 
-um sistema de <strong>cartões de memória</strong> (Flash Cards) e <strong>cronogramas</strong>
+Within these resources we can cite <strong>notes</strong> as the main foundation along with
+a system of <strong>flash Cards</strong> e <strong>schedules</strong>
 
-## Anotações:
+## Notes:
 ![](https://live.staticflickr.com/65535/48556349807_fa4e8602b0_b.jpg)
 
 ## Flash Cards:
-Frente             |  Verso
+Front             |  Back
 :-------------------------:|:-------------------------:
 ![](https://live.staticflickr.com/65535/48556349952_bb9052f390_b.jpg)  |  ![](https://live.staticflickr.com/65535/48556207586_ef313ed584_b.jpg)
 
 
-## Cronogramas:
+## Schedules:
 
 ![](https://live.staticflickr.com/65535/48556350082_7f190b4f01_h.jpg)
 
-Além disso existe o método pomodoro que é uma técnica que se baseia na ideia de que fluxos de trabalho divididos em blocos
-podem melhorar a agilidade do cérebro e estimular o foco, 25 minutos é o tempo ideal para esses blocos, também conhecidos como “pomodoros”.
-ou ciclos.
+In addition there is the pomodoro method which is a technique based on the idea that workflows divided into blocks
+can improve brain agility and stimulate focus, 25 minutes is the ideal time for these blocks, also known as “pomodoros”.
+or cycles.
 ## Pomodoro:
 
 <p align="center"> 
@@ -37,7 +36,7 @@ ou ciclos.
 </p>
 
 
-## Projeto em desenvolvimento
+## Project under development
 ### `mobile`
 https://github.com/henrique770/QuickCard_Mobile
 ### `web`
