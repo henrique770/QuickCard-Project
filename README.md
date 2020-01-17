@@ -11,7 +11,7 @@
 ![](https://live.staticflickr.com/65535/48556530677_7053e85bc2_b.jpg)
 
 Within these resources we can cite <strong>notes</strong> as the main foundation along with
-a system of <strong>flash Cards</strong> e <strong>schedules</strong>
+a system of <strong>flash Cards</strong> and <strong>schedules</strong>
 
 ## Notes:
 ![](https://live.staticflickr.com/65535/48556349807_fa4e8602b0_b.jpg)
