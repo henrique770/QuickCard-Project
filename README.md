@@ -40,6 +40,6 @@ or cycles.
 ### `mobile`
 https://github.com/henrique770/QuickCard_Mobile
 ### `web`
-https://github.com/henrique770/Frontend-QuickCard
+https://github.com/henrique770/new-frontend-quickcard
 
 <p align="center">2018</p> 
